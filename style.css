@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  box-sizing: border-box;
+  background-color: #16161a;
+  color: #fffffe;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+  font-family: 'Fredoka One', cursive;
+  font-weight: 200;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1300px;
+  height: 100vh;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: #fffffe;
+  text-decoration: none;
+}
+
+/* 
+    NavBar 
+            */
+
+.nav{
+  display: flex;
+  justify-content: flex-end ;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}            
+
+.logo{
+  flex: 1;
+  position: relative;
+}
+
+.logo::before{
+  content: '';
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: -32px;
+  z-index: -1;
+  background-color:#F2C617;
+}
+
+.nav-items ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-items li{
+  margin-left: 5rem;
+}
+
+/* 
+    Header
+ */
+
+.header{
+  display: flex;
+  align-items: center;
+}
+
+.about h1{
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+.about h4{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#about-btn{
+  margin-top: 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 200px;
+  background-color:#4E73B9;
+}
+
+.header .image img{
+  position: relative;
+  left: 75px;
+}
+
+/* 
+  Video
+*/
+
+.video{
+  margin: 200px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.video iframe{
+  box-shadow: 0 4px 8px 0#7f5af0, 0 6px 20px 0#4E73B9;
+  border-radius: 25px;
+}
+
+/* 
+  survices
+*/
+
+.survices{
+  margin-top: 600px;
+  height: 500px;
+  padding: 100px 0;
+  background-color:#72757e;
+}
+
+.icons{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons li{
+  margin-left: 20px;
+}
+
+.icons li i{
+  border-radius: 25px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  color: #fffffe;
+  height: 100px;
+  width: 100px;
+}
+
+.icons .fa-file-code{
+  background-color: #5EC9E7;
+  box-shadow: 0 2px 4px 0#5EC9E7, 0 3px 10px 0#5EC9E7;
+}
+
+.icons .fa-copyright{
+  background-color: #7f5af0;
+  box-shadow: 0 2px 4px 0#7f5af0, 0 6px 20px 0#7f5af0;
+}
+
+.icons .fa-star {
+  background-color: #F2C617;
+  box-shadow: 0 2px 4px 0#F2C617, 0 6px 20px 0#F2C617;
+}
+
+.learn-more{
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+
+
+
+
