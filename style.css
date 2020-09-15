@@ -311,6 +311,68 @@ p{
   top: -20px;
 }
 
+/* 
+  Real Call to action
+*/
+
+.real-cta{
+  text-align: center;
+  margin: 150px 0;
+}
+
+.real-cta .btn{
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  height: 3rem;
+  border-radius: 15px;  
+  background-color:#4E73B9;
+}
+
+.btn h5{
+  text-align: center;
+  padding-top: 15px;
+}
+
+.real-cta p{
+  margin: 0 auto;
+  width: 700px;
+}
+
+/* 
+  Footer
+*/
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.socials{
+  flex: 1;
+}
+
+.info p{
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 100;
+  color: #94a1b2;
+}
+
+.socials i{
+  margin-left: 20px;
+  color: #94a1b2;
+}
+
+.socials h2{
+  font-family: 'Fredoka One', cursive;
+  color: #94a1b2;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
 
 
 
