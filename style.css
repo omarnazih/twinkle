@@ -30,7 +30,6 @@ body{
   width: 80%;
   margin: 0 auto;
   max-width: 1300px;
-  height: 100vh;
 }
 
 li{
@@ -210,6 +209,7 @@ p{
   Call to action
 */
 
+
 .call-to-action{
   display: flex;
   margin: 200px 0;
@@ -267,6 +267,8 @@ p{
   Support
 */
 
+
+
 .support{
   margin: 300px 0;
 }
@@ -315,6 +317,10 @@ p{
   Real Call to action
 */
 
+/* ///////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////// */
 .real-cta{
   text-align: center;
   margin: 150px 0;
@@ -371,6 +377,118 @@ p{
   color: #94a1b2;
   margin-left: 20px;
   margin-top: 20px;
+}
+
+@media (max-width:768px){
+
+.nav .logo h1{
+    font-size: 2rem;
+}
+
+.container{
+    width: 100vw;
+}
+
+.header{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header h1{
+  width: 400px;
+}
+
+.header .image img{
+  position: relative;
+  left: 0;
+}
+
+.survices{
+  text-align: left;
+  margin-bottom:500px;
+}
+
+.survices h1{
+  text-align: center;
+}
+.icons{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.icons li{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons p{
+  font-size: var(--extrasmall-font-size);
+  width: 400px;
+  font-weight: 200;
+  color: #94a1b2;
+}
+
+
+.icons li i{
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-bottom: 200px;
+}
+
+.learn-more{
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.call-to-action{
+  display: flex;
+  flex-direction: column;
+  margin: 200px 0;
+}
+
+.call-to-action .img{
+  position: relative;
+  left: 150px;
+}
+
+.call-to-action .text{
+  margin-top: 150px;
+}
+
+.text h1{
+  width: 500px;
+}
+
+.text p{
+  width: 400px;
+}
+
+.support-grid-container{
+  margin-top: 50px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-gap: 5 5;
+}
+
+.support h1{
+  /* width: 500px; */
+  margin-left: 50px;
+}
+
+.support-grid-container .box {
+  padding-left: 50px;
+}
+
+
 }
 
 
